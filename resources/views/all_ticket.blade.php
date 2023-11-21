@@ -23,8 +23,9 @@
                     <td>{{$train->arrival_time}}</td>
                     <td>{{$train->train_code}}</td>
                     <td>{{$train->number_of_carriages}}</td>
-                    <td>{{$train->in_the_timetable}}</td>
-                    <td>{{$train->deleted}}</td>
+                    <td>{{$train->in_the_timetable ? 'Si' : 'No'}}</td>
+                    <td>{{$train->deleted ? 'Si' : 'No'}}</td>
+
                 </tr>
             @endforeach
         </tbody>
