@@ -12,7 +12,7 @@ class PageController extends Controller
 
     public function index(){
         $trains = Train::all();
-        return view("home", compact('trains'));
+        return view("layouts.main", compact('trains'));
     }
 
 }
