@@ -12,7 +12,7 @@
 
     @include('partials.header')
 
-    @include('layouts.main')
+    @include('all_ticket')
 
 
 </body>

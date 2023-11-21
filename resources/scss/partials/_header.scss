@@ -1,0 +1,15 @@
+header{
+    background-image: url('/public/image/train_bg_header.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 130px;
+
+    h1{
+        font-size: 4rem;
+        font-weight: bolder;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.411);
+        width: 100%;
+        text-align: center;
+    }
+}
