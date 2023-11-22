@@ -18,8 +18,8 @@ return new class extends Migration
             $table->string('agency', 50);
             $table->string('departure_station', 150);
             $table->string('arrival_station', 150);
-            $table->time('departure_time');
-            $table->time('arrival_time');
+            $table->date('departure_time');
+            $table->date('arrival_time');
             $table->string('train_code', 50);
             $table->integer('number_of_carriages');
             $table->boolean('in_the_timetable')->default(true);
